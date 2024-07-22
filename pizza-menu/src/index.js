@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 function App() {
-  return <h1>Hello world</h1>;
+  return <h1>Onat Arslan</h1>;
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
