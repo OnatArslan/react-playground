@@ -70,6 +70,7 @@ function Menu() {
     <main className="menu">
       <h2>Our menu</h2>
       <Pizza
+        // These are props
         name="Pizza Spinacci"
         ingredients="Tomato, mozerella, spinach, and ricatto cheese"
         photoName="pizzas/spinaci.jpg"
