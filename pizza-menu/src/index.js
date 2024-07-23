@@ -53,6 +53,7 @@ function App() {
       <Header />
       <Menu />
       <Footer />
+      <h1>Hello world</h1>
     </div>
   );
 }
