@@ -1,7 +1,3 @@
-function OnTop() {
-  return <h1>Hello world from first react app</h1>;
-}
-
 function Header() {
   return (
     <header>
@@ -18,8 +14,6 @@ function Header() {
 function App() {
   return (
     <div>
-      {/* This OnTop element also component */}
-      <OnTop></OnTop>
       {/* This Header elements is Header component */}
       <Header></Header>
       <main>
