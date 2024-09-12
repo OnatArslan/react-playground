@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import CoreConcept from './components/CoreConcept';
-
+import TabButton from './components/TabButton';
 import { CORE_CONCEPTS } from './data';
 import componentImg from './assets/components.png';
 
@@ -20,6 +20,15 @@ function App() {
           </ul>
         </section>
         <h2>Time to get started!</h2>
+        <section id="examples">
+          <h2>Examples</h2>
+          <menu>
+            <TabButton label="Components">Components</TabButton>
+            <TabButton></TabButton>
+            <TabButton></TabButton>
+            <TabButton></TabButton>
+          </menu>
+        </section>
       </main>
     </div>
   );
